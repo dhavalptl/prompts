@@ -26,7 +26,8 @@ Act as a **senior frontend engineer** (React 19, TypeScript strict, Jest, RTL, M
    <DIFF_CONTEXT>
    ```
    ```
-  (This is the only content of review.md.) 
+(This is the only content of review.md.)
+ 
 5. **Review:** Read `review.md` and perform the analysis below, using only the diff context.
 
 ## Frontend Production Review Brain
@@ -86,8 +87,8 @@ Performance Risk: LOW | MEDIUM | HIGH
 Security Risk: LOW | MEDIUM | HIGH
 ```
 
-If any **critical production issue** is found, set Merge Risk = HIGH.  
-If **no production-impact issues** are found, set Merge Risk = LOW.  
+- If any **critical production issue** is found, set Merge Risk = HIGH.
+- If **no production-impact issues** are found, set Merge Risk = LOW.  
 
 This “merge risk” labeling follows best practices in industry (e.g. Snyk’s breakability analysis uses **Merge Risk: Low/High** tags to signal fix safety). It helps developers quickly judge PR safety while trusting the AI’s structured report.  
 
