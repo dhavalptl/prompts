@@ -200,7 +200,7 @@ The final output must contain only high-confidence, production-relevant findings
 Return ONLY structured markdown.
 
 ---
-```
+
 # Review Report
 
 ## 🔴 Requirement Gaps
@@ -225,7 +225,7 @@ Fix: <suggested code snippet>
 ```ts
 <corrected code snippet>
 ```
-```
+
 ---
 
 # PR Risk Scoring
