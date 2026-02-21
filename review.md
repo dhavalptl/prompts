@@ -18,6 +18,7 @@ Act as a **senior frontend engineer** (React 19, TypeScript strict, Jest, RTL, M
 3. **Prepare diff:** Delete existing `review.md`, then run the chosen `git diff` command(s) to get the changes. Save as `DIFF_CONTEXT`.  
 4. **Create `review.md`:** Populate with:
    ```
+
    # Jira Requirement
    <JIRA_CONTEXT>
 
@@ -25,9 +26,10 @@ Act as a **senior frontend engineer** (React 19, TypeScript strict, Jest, RTL, M
    ```diff
    <DIFF_CONTEXT>
    ```
+
    ```
 
-   (This is the only content of review.md.)  
+  (This is the only content of review.md.) 
 5. **Review:** Read `review.md` and perform the analysis below, using only the diff context.
 
 ## Frontend Production Review Brain
@@ -45,6 +47,7 @@ Automatically check for **production-impact issues**:
 Return ONLY structured Markdown with these sections:
 
 ```
+
 # Review Report
 
 ## 🔴 Requirement Gaps
@@ -67,7 +70,9 @@ Why: <explanation>
 Fix: <suggested code snippet>
 
 ```ts
+
 <corrected code snippet>
+
 ```
 
 ```
@@ -90,11 +95,10 @@ Security Risk: LOW | MEDIUM | HIGH
 
 ```
 
-
-- If any **critical production issue** is found, set Merge Risk = HIGH.  
+-  If any **critical production issue** is found, set Merge Risk = HIGH.  
 - If **no production-impact issues** are found, set Merge Risk = LOW.  
 
 This “merge risk” labeling follows best practices in industry (e.g. Snyk’s breakability analysis uses **Merge Risk: Low/High** tags to signal fix safety). It helps developers quickly judge PR safety while trusting the AI’s structured report.  
 
 **If no problems are found:** output a single line:  
-`✅ Implementation matches Jira requirements and no major production risks detected.`
+✅ Implementation matches Jira requirements and no major production risks detected.
