@@ -203,29 +203,30 @@ Return ONLY structured markdown.
 
 # Review Report
 
-## 🔴 Requirement Gaps  
+# Review Report
 
-## 🔴 Critical Bugs  
+## 🔴 Requirement Gaps
+(Place where the code fails to meet the Jira requirements.)
 
-## 🟠 Warnings  
+## 🔴 Critical Bugs
+(Issues causing potential crashes or major failures.)
 
-## 🟢 Suggestions  
+## 🟠 Warnings
+(High-severity concerns or likely bugs.)
 
----
+## 🟢 Suggestions
+(Lower-severity or improvement ideas.)
 
 ## Per-File Comments
-
-### filepath  
-
+### <filepath>
 Line X  
+Issue: <short description>  
+Why: <explanation>  
+Fix: <suggested code snippet>
 
-Issue:  
-
-Why:  
-
-Fix:
-
-    corrected snippet
+```ts
+<corrected code snippet>
+```
 
 ---
 
