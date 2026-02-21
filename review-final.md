@@ -203,8 +203,6 @@ Return ONLY structured markdown.
 
 # Review Report
 
-# Review Report
-
 ## 🔴 Requirement Gaps
 (Place where the code fails to meet the Jira requirements.)
 
