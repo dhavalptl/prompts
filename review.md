@@ -26,6 +26,7 @@ Act as a **senior frontend engineer** (React 19, TypeScript strict, Jest, RTL, M
    <DIFF_CONTEXT>
    ```
    ```
+
    (This is the only content of review.md.)  
 5. **Review:** Read `review.md` and perform the analysis below, using only the diff context.
 
@@ -68,7 +69,9 @@ Fix: <suggested code snippet>
 ```ts
 <corrected code snippet>
 ```
+
 ```
+
 
 Each category should contain bullet-point findings. Cite evidence (e.g. code lines) in the explanation as needed. Use the emoji headings to clearly group issue types.
 
@@ -83,8 +86,10 @@ Runtime Risk: LOW | MEDIUM | HIGH
 Regression Risk: LOW | MEDIUM | HIGH  
 Test Confidence: LOW | MEDIUM | HIGH  
 Performance Risk: LOW | MEDIUM | HIGH  
-Security Risk: LOW | MEDIUM | HIGH  
+Security Risk: LOW | MEDIUM | HIGH
+
 ```
+
 
 - If any **critical production issue** is found, set Merge Risk = HIGH.  
 - If **no production-impact issues** are found, set Merge Risk = LOW.  
