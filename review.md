@@ -25,6 +25,7 @@ Act as a **senior frontend engineer** (React 19, TypeScript strict, Jest, RTL, M
    ```diff
    <DIFF_CONTEXT>
    ```
+   ```
    (This is the only content of review.md.)  
 5. **Review:** Read `review.md` and perform the analysis below, using only the diff context.
 
